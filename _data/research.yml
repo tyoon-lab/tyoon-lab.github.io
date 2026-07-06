@@ -1,0 +1,15 @@
+- title: "Electrochemical Interfaces and Degradation"
+  icon: "interface"
+  description: "We investigate interfacial side reactions, SEI/CEI formation, transport limitations, and degradation pathways in rechargeable batteries and electrochemical devices."
+
+- title: "Corrosion in Energy Materials"
+  icon: "corrosion"
+  description: "We quantify corrosion, passivation failure, and current-collector degradation in aqueous, non-aqueous, and solid-state battery environments."
+
+- title: "Solid-State and Polymer Electrolytes"
+  icon: "electrolyte"
+  description: "We study sulfide-based solid electrolytes, polymer electrolytes, and solid-solid interfaces for safer and more durable lithium batteries."
+
+- title: "Advanced Electrochemical Diagnostics"
+  icon: "diagnostics"
+  description: "We develop signal-based diagnostics using EIS/DRT, PITT/GITT, QCM, RRDE, transient analysis, and electrochemical modeling."

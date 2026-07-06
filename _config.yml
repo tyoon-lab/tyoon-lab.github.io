@@ -1,0 +1,25 @@
+title: "Yoon Lab"
+description: "Electrochemical Engineering Lab at Kyung Hee University"
+url: ""
+baseurl: ""
+lang: "en"
+timezone: "Asia/Seoul"
+
+lab:
+  name: "Yoon Lab"
+  full_name: "Electrochemical Engineering Lab"
+  institution: "Department of Chemical Engineering, Kyung Hee University"
+  location: "Seoul, Republic of Korea"
+  email: "yoonlab@khu.ac.kr"
+  github: "https://github.com/yoonlab"
+  current_site: "https://sites.google.com/khu.ac.kr/yoonlab/"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README_KR.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules

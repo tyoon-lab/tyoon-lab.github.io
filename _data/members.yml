@@ -1,0 +1,26 @@
+- group: "Principal Investigator"
+  people:
+    - name: "Taeho Yoon"
+      role: "Associate Professor"
+      affiliation: "Department of Chemical Engineering, Kyung Hee University"
+      email: ""
+      interests: "Electrochemical interfaces, battery degradation, corrosion, impedance analysis, transient electrochemistry"
+      photo: "assets/images/members/placeholder.svg"
+
+- group: "Graduate Students"
+  people:
+    - name: "Graduate Student Name"
+      role: "Ph.D. / M.S. Student"
+      affiliation: "Yoon Lab"
+      email: ""
+      interests: "Battery interfaces and electrochemical diagnostics"
+      photo: "assets/images/members/placeholder.svg"
+
+- group: "Alumni"
+  people:
+    - name: "Alumni Name"
+      role: "Former M.S. Student"
+      affiliation: "Current affiliation"
+      email: ""
+      interests: "Previous research topic"
+      photo: "assets/images/members/placeholder.svg"
