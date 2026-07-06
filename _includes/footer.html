@@ -1,20 +1,40 @@
 <footer class="site-footer">
   <div class="footer-grid">
-    <div>
-      <div class="footer-brand">YOON LAB</div>
-      <p>{{ site.lab.full_name }}<br>{{ site.lab.institution }}</p>
+    <div class="footer-identity">
+      <h2>{{ site.lab.name | upcase }}</h2>
+      <p class="footer-lab-name">{{ site.lab.full_name }}</p>
+      <p class="footer-tagline">
+        Quantitative electrochemical diagnostics for interfaces, degradation, and corrosion.
+      </p>
     </div>
-    <div>
+
+    <div class="footer-contact">
       <h3>Contact</h3>
-      <p>{{ site.lab.location }}<br><a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a></p>
+      <p>
+        {% for line in site.lab.address_lines %}
+          {{ line }}{% unless forloop.last %}<br>{% endunless %}
+        {% endfor %}
+      </p>
+      <p>
+        <a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a>
+      </p>
     </div>
-    <div>
+
+    <div class="footer-keywords">
       <h3>Research Keywords</h3>
-      <p>EIS/DRT · PITT/GITT · QCM · Battery interfaces · Corrosion · Solid-state electrolytes</p>
+      <div class="keyword-list">
+        <span>EIS/DRT</span>
+        <span>PITT/GITT</span>
+        <span>QCM</span>
+        <span>Battery interfaces</span>
+        <span>Corrosion</span>
+        <span>Solid-state electrolytes</span>
+      </div>
     </div>
   </div>
+
   <div class="footer-bottom">
-    <span>© {{ site.time | date: '%Y' }} Yoon Lab. All rights reserved.</span>
+    <span>© {{ site.time | date: "%Y" }} Yoon Lab. All rights reserved.</span>
     <span>Built with GitHub Pages and Jekyll.</span>
   </div>
 </footer>

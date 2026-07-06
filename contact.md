@@ -17,9 +17,13 @@ description: "Contact information for Yoon Lab."
   <div class="container">
     <div class="contact-grid">
       <article class="contact-card">
-        <h3>Address</h3>
-        <p>{{ site.lab.institution }}<br>{{ site.lab.location }}</p>
-      </article>
+  <h3>Address</h3>
+  <p>
+    {% for line in site.lab.address_lines %}
+      {{ line }}{% unless forloop.last %}<br>{% endunless %}
+    {% endfor %}
+  </p>
+</article>
       <article class="contact-card">
         <h3>Email</h3>
         <p><a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a></p>

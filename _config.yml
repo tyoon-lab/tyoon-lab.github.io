@@ -9,9 +9,14 @@ lab:
   name: "Yoon Lab"
   full_name: "Electrochemical Engineering Lab"
   institution: "Department of Chemical Engineering, Kyung Hee University"
-  location: "Seoul, Republic of Korea"
-  email: "yoonlab@khu.ac.kr"
-  github: "https://github.com/yoonlab"
+  address_lines:
+    - "Department of Chemical Engineering"
+    - "Kyung Hee University"
+    - "1732, Deogyeong-daero, Giheung-gu, Yongin-si"
+    - "Gyeonggi-do 17104, Republic of Korea"
+  location: "Yongin, Gyeonggi-do, Republic of Korea"
+  email: "tyoon@khu.ac.kr"
+  github: "https://github.com/tyoon-lab"
   current_site: "https://sites.google.com/khu.ac.kr/yoonlab/"
 
 markdown: kramdown
