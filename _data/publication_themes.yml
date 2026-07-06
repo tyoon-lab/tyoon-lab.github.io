@@ -1,0 +1,19 @@
+- slug: interfaces
+  title: Interfaces & Degradation
+  short_title: Interfaces
+  description: Interfacial side reactions, SEI/CEI formation, fracture, transport limitations, and failure pathways in battery
+    electrodes and electrochemical devices.
+- slug: corrosion
+  title: Corrosion in Energy Materials
+  short_title: Corrosion
+  description: Corrosion, passivation failure, and current-collector degradation in liquid and solid-state battery environments.
+- slug: diagnostics
+  title: Electrochemical Diagnostics & Sensing
+  short_title: Diagnostics
+  description: Electrochemical sensing, signal interpretation, mapping, and diagnostic methods that connect measured signals
+    to real interfacial phenomena.
+- slug: energy-materials
+  title: Energy Materials & Devices
+  short_title: Energy Materials
+  description: Electrolytes, catalysts, supercapacitors, batteries, and electrochemical materials that broaden the application
+    space of signal-based electrochemistry.

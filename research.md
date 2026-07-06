@@ -46,3 +46,35 @@ description: "Research themes of Yoon Lab."
     </div>
   </div>
 </section>
+
+<section class="section">
+  <div class="container">
+    <span class="section-kicker">Evidence</span>
+    <h2 class="section-title">Representative publications linked to each research theme</h2>
+    <p class="section-lead">Selected papers are shown here to connect the research themes with concrete publications. The complete list is available on the Publications page.</p>
+
+    <div class="research-publication-list">
+      {% for theme in site.data.publication_themes %}
+      <section class="research-publication-block">
+        <div class="research-publication-head">
+          <h3>{{ theme.title }}</h3>
+          <p>{{ theme.description }}</p>
+        </div>
+
+        <div class="research-paper-list">
+          {% assign theme_pubs = site.data.publications | where: "category", theme.slug | where: "research_featured", true | sort: "featured_order" %}
+          {% for paper in theme_pubs %}
+          <article class="research-paper-item">
+            <span>{{ paper.year }}</span>
+            <div>
+              <h4>{{ paper.title }}</h4>
+              <p>{{ paper.journal }}</p>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>
