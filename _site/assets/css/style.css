@@ -718,3 +718,234 @@ img { max-width: 100%; display: block; }
   }
 }
 
+
+@media (max-width: 1100px) {
+  .grid-2,
+  .split {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .theme-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .highlight-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .highlight-year {
+    min-height: 72px;
+  }
+
+  .section-title {
+    font-size: clamp(2.1rem, 12vw, 3.1rem);
+  }
+}
+
+
+/* =========================================================
+   Mobile overflow and navigation fix
+   Purpose: prevent the whole page from becoming wider than
+   the phone screen, while allowing only the top navigation
+   itself to scroll horizontally when needed.
+   Add this block to the very bottom of assets/css/style.css.
+   ========================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video,
+canvas,
+iframe {
+  max-width: 100%;
+}
+
+/* Make sure common page wrappers never force horizontal scrolling. */
+.site-header,
+.site-header .container,
+.container,
+.page-hero,
+.hero,
+.section,
+.site-footer,
+main {
+  max-width: 100%;
+}
+
+@media (max-width: 820px) {
+  .site-header {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .site-header .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .site-brand,
+  .brand,
+  .logo {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  /* The nav can scroll, but the full page should not scroll sideways. */
+  .site-nav,
+  .nav,
+  nav[aria-label="Primary navigation"] {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 22px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 8px;
+  }
+
+  .site-nav::-webkit-scrollbar,
+  .nav::-webkit-scrollbar,
+  nav[aria-label="Primary navigation"]::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-nav a,
+  .nav a,
+  nav[aria-label="Primary navigation"] a {
+    flex: 0 0 auto;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .site-header .container,
+  .container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .site-nav,
+  .nav,
+  nav[aria-label="Primary navigation"] {
+    gap: 18px;
+  }
+}
+
+
+/* =========================================================
+   Yoon Lab — desktop width restore + safer mobile overflow
+   Add this block at the VERY END of assets/css/style.css.
+   It restores the centered desktop content width while keeping
+   mobile horizontal overflow under control.
+   ========================================================= */
+
+/* 1) Restore the designed maximum width on tablet/desktop */
+@media (min-width: 901px) {
+  .container,
+  .site-header .container,
+  .page-hero .container,
+  .section .container,
+  .hero .container,
+  .footer-inner,
+  .site-footer .container {
+    width: min(calc(100% - 64px), 1280px) !important;
+    max-width: 1280px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Prevent desktop grids from stretching too far if a previous mobile patch made them full-width. */
+  .themes-grid,
+  .research-grid,
+  .home-grid,
+  .feature-grid,
+  .split-grid,
+  .updates-grid,
+  .gallery-grid,
+  .publication-list,
+  .news-grid {
+    max-width: 1280px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/* 2) Only apply hard horizontal clipping on mobile/tablet, not as a desktop layout rule */
+@media (max-width: 900px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .container,
+  .site-header .container,
+  .page-hero .container,
+  .section .container,
+  .hero .container,
+  .footer-inner,
+  .site-footer .container {
+    width: min(calc(100% - 40px), 100%) !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .site-nav,
+  .nav-links,
+  .primary-nav {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* 3) Very small phones */
+@media (max-width: 640px) {
+  .container,
+  .site-header .container,
+  .page-hero .container,
+  .section .container,
+  .hero .container,
+  .footer-inner,
+  .site-footer .container {
+    width: min(calc(100% - 32px), 100%) !important;
+  }
+}
