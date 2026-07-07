@@ -42,24 +42,24 @@ graduate_students:
     role: "M.S. Course"
     email: "2025310120@khu.ac.kr"
     photo: ""
-    topic: "Polymer electrolytes and electrochemical energy materials"
+    topic: "Polymer electrolytes and electrolyte diagnostic methods"
   - name: "Yunju Kang"
     role: "M.S. Course"
     email: "rkddbswn72@khu.ac.kr"
     photo: ""
-    topic: "Electrochemical interfaces and energy conversion/storage systems"
+    topic: "Thick electrodes and PITT-based transient analysis"
   - name: "Yunjeong Kim"
     role: "M.S. Course"
     email: "x2x3x6x@khu.ac.kr"
     photo: ""
-    topic: "Battery materials and electrochemical diagnostics"
+    topic: "Current-collector corrosion in sulfide-based and aqueous electrolytes"
 
 undergraduate_students:
   - name: "Uihyeon Lee"
     role: "Undergraduate Researcher"
     email: "lordswill@khu.ac.kr"
     photo: ""
-    topic: "Electrochemical analysis and battery research"
+    topic: "Battery safety, thermal-runaway diagnosis, and QCM-based diagnostics"
 
 alumni_groups:
   - title: "Professors & Postdocs"
