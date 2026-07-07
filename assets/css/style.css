@@ -718,3 +718,33 @@ img { max-width: 100%; display: block; }
   }
 }
 
+
+@media (max-width: 1100px) {
+  .grid-2,
+  .split {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .theme-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .highlight-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .highlight-year {
+    min-height: 72px;
+  }
+
+  .section-title {
+    font-size: clamp(2.1rem, 12vw, 3.1rem);
+  }
+}
