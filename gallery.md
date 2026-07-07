@@ -23,9 +23,8 @@ nav: gallery
         <h2 class="section-title">Research, people, and lab life</h2>
       </div>
       <p class="section-lead">
-        Photos can be added gradually as the lab homepage grows. Each card is managed from
-        <code>_data/gallery.yml</code>, while image files are stored in
-        <code>assets/images/gallery/</code>.
+        Snapshots from conferences, thesis defenses, awards, and everyday moments in Yoon Lab.
+        This page records the people, milestones, and memories behind our research.
       </p>
     </div>
 
