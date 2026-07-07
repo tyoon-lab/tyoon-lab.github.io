@@ -949,3 +949,33 @@ main {
     width: min(calc(100% - 32px), 100%) !important;
   }
 }
+
+
+/* Mobile header logo shrink fix */
+@media (max-width: 760px) {
+  .site-brand,
+  .brand,
+  .navbar-brand {
+    flex-shrink: 0 !important;
+    min-width: max-content !important;
+  }
+
+  .brand-mark,
+  .site-logo,
+  .logo-mark,
+  .logo {
+    flex: 0 0 auto !important;
+    flex-shrink: 0 !important;
+    width: 54px !important;
+    height: 54px !important;
+    min-width: 54px !important;
+    min-height: 54px !important;
+    aspect-ratio: 1 / 1 !important;
+    object-fit: contain !important;
+  }
+
+  .brand-text,
+  .site-title-wrap {
+    flex-shrink: 0 !important;
+  }
+}
