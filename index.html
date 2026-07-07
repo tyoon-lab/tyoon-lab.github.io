@@ -2,14 +2,14 @@
 layout: default
 title: Home
 nav: home
-description: "Yoon Lab develops quantitative electrochemical diagnostics for interfaces, degradation, and corrosion."
+description: "Quantitative electrochemical diagnostics for interfaces, degradation, corrosion, and energy materials."
 ---
 <section class="hero">
   <div class="hero-inner">
     <div>
       <span class="section-kicker">Kyung Hee University · Chemical Engineering</span>
       <h1>Decoding Electrochemical Interfaces, Degradation, and Corrosion</h1>
-      <p>Yoon Lab develops quantitative electrochemical diagnostics to reveal hidden interfacial reactions, transport limitations, side reactions, and failure mechanisms in energy materials and devices.</p>
+      <p>Yoon Lab develops quantitative electrochemical diagnostics to understand interfacial degradation, transport limitations, side reactions, and corrosion in energy materials and devices.</p>
       <div class="hero-actions">
         <a class="btn primary" href="{{ '/research/' | relative_url }}">Research →</a>
         <a class="btn secondary" href="{{ '/publications/' | relative_url }}">Publications →</a>
@@ -60,7 +60,7 @@ description: "Yoon Lab develops quantitative electrochemical diagnostics for int
   <div class="container">
     <div class="about-panel">
       <span class="section-kicker">About Yoon Lab</span>
-      <p>Our research bridges electrochemical analysis, materials characterization, and interface engineering to advance batteries, solid-state electrolytes, corrosion science, supercapacitors, seawater electrolysis, and electrochemical sensors. We aim to establish mechanistic links between measured electrochemical signals and real interfacial phenomena.</p>
+      <p>Our research connects electrochemical measurements with real interfacial phenomena in batteries, solid-state and polymer electrolytes, corrosion systems, supercapacitors, seawater electrolysis, and electrochemical sensors. We focus on translating signals such as impedance, transient current, and mass change into mechanistic understanding of degradation and failure.</p>
     </div>
   </div>
 </section>
@@ -68,8 +68,8 @@ description: "Yoon Lab develops quantitative electrochemical diagnostics for int
 <section class="section alt">
   <div class="container">
     <span class="section-kicker">Research Themes</span>
-    <h2 class="section-title">Signal-based understanding of electrochemical systems</h2>
-    <p class="section-lead">We combine electrochemical measurements, transient analysis, materials characterization, and modeling to decode complex interfacial and degradation processes.</p>
+    <h2 class="section-title">Quantitative diagnostics for electrochemical interfaces</h2>
+    <p class="section-lead">We use electrochemical signals as quantitative probes of interfaces, transport, side reactions, corrosion, and degradation in energy materials and devices.</p>
     <div class="grid-2" style="margin-top: 34px;">
       {% for theme in site.data.research %}
       <article class="theme-card">
@@ -87,8 +87,8 @@ description: "Yoon Lab develops quantitative electrochemical diagnostics for int
 <section class="section">
   <div class="container split">
     <div>
-      <span class="section-kicker">Featured Research Highlights</span>
-      <h2 class="section-title">Recent achievements</h2>
+      <span class="section-kicker">Selected Research Highlights</span>
+      <h2 class="section-title">Representative achievements</h2>
       <div class="highlight-list">
         {% for item in site.data.highlights %}
         <article class="highlight-card">
@@ -104,15 +104,17 @@ description: "Yoon Lab develops quantitative electrochemical diagnostics for int
     </div>
     <aside>
       <span class="section-kicker">News & Opportunities</span>
-      <h2 class="section-title">Updates</h2>
-      {% for item in site.data.news limit:3 %}
-      <article class="news-card">
-        <span class="category">{{ item.category }}</span>
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.summary }}</p>
-        <time datetime="{{ item.date }}">{{ item.date }}</time>
-      </article>
-      {% endfor %}
+      <h2 class="section-title">Latest from the lab</h2>
+      {% assign latest_news = site.data.news | sort: "date" | reverse %}
+{% for item in latest_news limit:3 %}
+     <article class="news-card">
+  <span class="category">{{ item.category }}</span>
+  <h3>{{ item.title }}</h3>
+  <p>{{ item.summary }}</p>
+  <time datetime="{{ item.date }}">{{ item.display_date | default: item.date }}</time>
+</article>
+{% endfor %}
+      <a class="btn secondary" href="{{ '/news/' | relative_url }}" style="margin-top: 10px; color: var(--navy-900); border-color: rgba(201,154,46,.45); background: var(--white);">All news →</a>
     </aside>
   </div>
 </section>
@@ -122,7 +124,7 @@ description: "Yoon Lab develops quantitative electrochemical diagnostics for int
     <div class="callout">
       <div>
         <h2>Join Yoon Lab</h2>
-        <p>We welcome motivated students interested in batteries, electrochemical diagnostics, corrosion, solid-state electrolytes, polymer electrolytes, and quantitative analysis of interfacial reactions.</p>
+        <p>We welcome motivated students interested in batteries, electrochemical diagnostics, corrosion, safety, solid-state and polymer electrolytes, and quantitative analysis of interfacial reactions.</p>
       </div>
       <a class="btn primary" href="{{ '/join/' | relative_url }}">Open positions →</a>
     </div>

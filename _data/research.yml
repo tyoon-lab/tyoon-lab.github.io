@@ -1,3 +1,7 @@
+- title: "Advanced Electrochemical Diagnostics"
+  icon: "diagnostics"
+  description: "We develop signal-based diagnostic methods using EIS/DRT, PITT/GITT, QCM, RRDE, transient analysis, and electrochemical modeling to quantify hidden interfacial processes."
+
 - title: "Electrochemical Interfaces and Degradation"
   icon: "interface"
   description: "We investigate interfacial side reactions, SEI/CEI formation, transport limitations, and degradation pathways in rechargeable batteries and electrochemical devices."
@@ -8,8 +12,4 @@
 
 - title: "Solid-State and Polymer Electrolytes"
   icon: "electrolyte"
-  description: "We study sulfide-based solid electrolytes, polymer electrolytes, and solid-solid interfaces for safer and more durable lithium batteries."
-
-- title: "Advanced Electrochemical Diagnostics"
-  icon: "diagnostics"
-  description: "We develop signal-based diagnostics using EIS/DRT, PITT/GITT, QCM, RRDE, transient analysis, and electrochemical modeling."
+  description: "We study sulfide-based solid electrolytes, polymer electrolytes, and solid-solid or electrode-electrolyte interfaces for safer and more durable lithium batteries."
