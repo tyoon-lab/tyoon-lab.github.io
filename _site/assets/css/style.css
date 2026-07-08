@@ -795,3 +795,175 @@ img { display: block; }
     border-radius: 9px !important;
   }
 }
+
+/* === PI academic profile links === */
+.pi-link-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1rem 0 0.2rem;
+}
+
+.pi-link-buttons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.25rem;
+  padding: 0.46rem 0.88rem;
+  border: 1px solid rgba(201, 154, 46, 0.36);
+  border-radius: 999px;
+  color: var(--navy-900);
+  background: rgba(247, 236, 208, 0.42);
+  font-size: 0.86rem;
+  font-weight: 850;
+  line-height: 1.2;
+  transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+.pi-link-buttons a:hover {
+  color: var(--navy-950);
+  background: var(--gold-100);
+  border-color: rgba(201, 154, 46, 0.72);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 560px) {
+  .pi-link-buttons {
+    gap: 0.55rem;
+  }
+
+  .pi-link-buttons a {
+    width: 100%;
+  }
+}
+
+/* PI profile title balance */
+.pi-profile-main h3 {
+  font-size: clamp(1.45rem, 2.3vw, 2rem) !important;
+  line-height: 1.16 !important;
+}
+
+/* People page balance: make student cards more prominent */
+.people-grid {
+  gap: 24px !important;
+}
+
+.person-card-v2 {
+  padding: 28px !important;
+  grid-template-columns: 96px 1fr !important;
+  gap: 22px !important;
+  min-height: 170px !important;
+}
+
+.person-photo-v2,
+.person-photo-placeholder {
+  width: 96px !important;
+  height: 96px !important;
+  border-radius: 24px !important;
+}
+
+.person-card-v2 h4 {
+  font-size: 1.22rem !important;
+  margin-bottom: 8px !important;
+}
+
+.person-role {
+  font-size: 0.82rem !important;
+  margin-bottom: 7px !important;
+}
+
+.person-card-v2 p:not(.person-role) {
+  font-size: 0.98rem !important;
+  line-height: 1.58 !important;
+}
+
+.person-card-v2 .text-link {
+  font-size: 0.96rem !important;
+}
+
+.compact-people-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+@media (max-width: 920px) {
+  .compact-people-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* People page: show student cards as two per row on desktop */
+.people-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 24px !important;
+}
+
+.person-card-v2 {
+  padding: 28px !important;
+  grid-template-columns: 96px 1fr !important;
+  gap: 22px !important;
+  min-height: 170px !important;
+}
+
+.person-photo-v2,
+.person-photo-placeholder {
+  width: 96px !important;
+  height: 96px !important;
+  border-radius: 24px !important;
+}
+
+.person-card-v2 h4 {
+  font-size: 1.22rem !important;
+  margin-bottom: 8px !important;
+}
+
+.person-role {
+  font-size: 0.82rem !important;
+  margin-bottom: 7px !important;
+}
+
+.person-card-v2 p:not(.person-role) {
+  font-size: 0.98rem !important;
+  line-height: 1.58 !important;
+}
+
+.person-card-v2 .text-link {
+  font-size: 0.96rem !important;
+}
+
+/* Mobile: one card per row */
+@media (max-width: 760px) {
+  .people-grid,
+  .compact-people-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .person-card-v2 {
+    grid-template-columns: 82px 1fr !important;
+    padding: 22px !important;
+  }
+
+  .person-photo-v2,
+  .person-photo-placeholder {
+    width: 82px !important;
+    height: 82px !important;
+  }
+}
+
+.pi-profile-main h3 {
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+}
+
+
+/* People page: slightly larger student photos in two-column layout */
+@media (min-width: 761px) {
+  .person-card-v2 {
+    grid-template-columns: 108px 1fr !important;
+  }
+
+  .person-photo-v2,
+  .person-photo-placeholder {
+    width: 108px !important;
+    height: 108px !important;
+    border-radius: 26px !important;
+  }
+}

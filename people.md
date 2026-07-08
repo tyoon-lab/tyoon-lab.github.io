@@ -31,9 +31,14 @@ permalink: /people/
 
       <div class="pi-profile-main">
         <p class="pi-title">{{ pi.degrees }} · {{ pi.title }}</p>
-        <h3>{{ pi.department }}</h3>
-        <p class="pi-affiliation">{{ pi.institution }}</p>
+        <h3>Electrochemical Engineering Lab</h3>
+        <p class="pi-affiliation">{{ pi.department }}, {{ pi.institution }}</p>
         <p><a class="text-link" href="mailto:{{ pi.email }}">{{ pi.email }}</a></p>
+
+        <div class="pi-link-buttons" aria-label="Principal investigator academic profiles">
+          <a href="https://scholar.google.com/citations?hl=ko&user=XYBKq3EAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-9403-9250" target="_blank" rel="noopener">ORCID</a>
+        </div>
 
         <div class="people-tag-list">
           {% for interest in pi.research_interests %}
