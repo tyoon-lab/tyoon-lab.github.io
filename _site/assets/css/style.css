@@ -999,3 +999,113 @@ img { display: block; }
     border-radius: 24px !important;
   }
 }
+
+
+
+/* === Home page refinement: hero signal card + about panel === */
+@media (min-width: 901px) {
+  .hero-inner {
+    grid-template-columns: minmax(0, 1.06fr) minmax(340px, 0.72fr) !important;
+    gap: clamp(48px, 6vw, 84px) !important;
+  }
+
+  .signal-card {
+    width: min(100%, 420px) !important;
+    min-height: 420px !important;
+    justify-self: center !important;
+    border-radius: 26px !important;
+  }
+
+  .signal-card svg {
+    min-height: 420px !important;
+  }
+}@media (min-width: 900px) {
+  .signal-card {
+    transform: scale(1.08) translateX(-18px);
+    transform-origin: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .signal-card {
+    max-width: 420px !important;
+    margin: 0 auto !important;
+  }
+}
+
+.about-panel {
+  padding: clamp(34px, 4.5vw, 54px) !important;
+}
+
+.about-panel p {
+  max-width: 980px !important;
+}
+
+
+/* =========================================================
+   Home hero softening
+   Purpose: reduce visual crowding in the desktop hero section.
+   Add this block to the very bottom of assets/css/style.css.
+   ========================================================= */
+
+@media (min-width: 901px) {
+  .hero {
+    min-height: 670px !important;
+  }
+
+  .hero-inner {
+    grid-template-columns: 1.02fr 0.78fr !important;
+    gap: 72px !important;
+    padding-top: 76px !important;
+    padding-bottom: 82px !important;
+  }
+
+  .hero h1 {
+    max-width: 760px !important;
+    font-size: clamp(3.8rem, 5.15vw, 5.15rem) !important;
+    line-height: 1.06 !important;
+    letter-spacing: -0.016em !important;
+  }
+
+  .hero p {
+    max-width: 680px !important;
+    font-size: 1.05rem !important;
+    line-height: 1.64 !important;
+  }
+
+  .signal-card {
+    opacity: 0.74 !important;
+    transform: scale(0.94) translateX(-10px) !important;
+    transform-origin: center !important;
+    box-shadow: 0 28px 72px rgba(0, 0, 0, 0.18) !important;
+  }
+
+  .hero::after {
+    color: rgba(255, 255, 255, 0.045) !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero h1 {
+    font-size: clamp(4rem, 4.7vw, 5.05rem) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: clamp(2.55rem, 11vw, 3.35rem) !important;
+    line-height: 1.05 !important;
+  }
+}
+
+/* Final hero visual balance */
+@media (min-width: 900px) {
+  .signal-card {
+    opacity: 0.72 !important;
+    transform: none !important;
+  }
+
+  .hero::after {
+    opacity: 0.65 !important;
+  }
+}
