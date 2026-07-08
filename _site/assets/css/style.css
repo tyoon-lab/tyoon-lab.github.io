@@ -967,3 +967,35 @@ img { display: block; }
     border-radius: 26px !important;
   }
 }
+
+/* People page: enlarge student photos for better balance with PI profile */
+@media (min-width: 761px) {
+  .person-card-v2 {
+    grid-template-columns: 128px 1fr !important;
+    gap: 26px !important;
+    padding: 30px !important;
+    min-height: 190px !important;
+    align-items: center !important;
+  }
+
+  .person-photo-v2,
+  .person-photo-placeholder {
+    width: 128px !important;
+    height: 128px !important;
+    border-radius: 28px !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .person-card-v2 {
+    grid-template-columns: 96px 1fr !important;
+    gap: 18px !important;
+  }
+
+  .person-photo-v2,
+  .person-photo-placeholder {
+    width: 96px !important;
+    height: 96px !important;
+    border-radius: 24px !important;
+  }
+}
