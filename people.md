@@ -98,6 +98,7 @@ permalink: /people/
       </div>
     </div>
 
+    {% if site.data.people.undergraduate_students and site.data.people.undergraduate_students.size > 0 %}
     <div class="member-group-block">
       <h3>Undergraduate Researchers</h3>
       <div class="people-grid compact-people-grid">
@@ -118,6 +119,7 @@ permalink: /people/
         {% endfor %}
       </div>
     </div>
+    {% endif %}
   </div>
 </section>
 

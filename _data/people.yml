@@ -53,13 +53,14 @@ graduate_students:
     email: "x2x3x6x@khu.ac.kr"
     photo: ""
     topic: "Current-collector corrosion in sulfide-based and aqueous electrolytes"
-
-undergraduate_students:
   - name: "Uihyeon Lee"
-    role: "Undergraduate Researcher"
-    email: "lordswill@khu.ac.kr"
+    role: "Early-start M.S. Course"
+    email: "lordsvill@khu.ac.kr"
     photo: ""
     topic: "Battery safety, thermal-runaway diagnosis, and QCM-based diagnostics"
+
+undergraduate_students:  
+  - 
 
 alumni_groups:
   - title: "Professors & Postdocs"
