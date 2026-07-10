@@ -1,17 +1,18 @@
 ---
 layout: default
 title: Join Us
+nav: join
 permalink: /join/
+description: "Join Yoon Lab as a graduate student, undergraduate researcher, or collaborator."
 ---
 
 <section class="page-hero compact-page-hero">
   <div class="container">
     <span class="section-kicker">Join Us</span>
-    <h1>Build quantitative electrochemical science together</h1>
+    <h1>Build electrochemical insight together</h1>
     <p>
-      Yoon Lab welcomes motivated students who want to understand electrochemical interfaces,
-      degradation, corrosion, and energy materials through careful experiments, signal-based
-      analysis, and quantitative thinking.
+      Yoon Lab welcomes students and collaborators who want to connect electrochemical
+      measurements with hidden interfacial processes, degradation, and corrosion.
     </p>
   </div>
 </section>
@@ -99,7 +100,8 @@ permalink: /join/
           </li>
           <li>
             <strong>Attach basic materials.</strong>
-            A CV or resume, transcript, and a short description of previous research or project experience are helpful.
+            A CV or resume and a short description of your research interests, relevant coursework,
+            or previous project experience are helpful.
           </li>
           <li>
             <strong>Send to the PI.</strong>
@@ -114,7 +116,7 @@ permalink: /join/
         <p class="section-lead">
           We value careful experiments, honest interpretation, quantitative reasoning,
           clear writing, and steady progress. Students are encouraged to connect physical
-          mechanisms with measurable electrochemical signals and to develop their own scientific questions.
+          understanding with experimental evidence and to develop their own scientific questions.
         </p>
       </div>
     </div>
