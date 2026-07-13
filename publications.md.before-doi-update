@@ -34,10 +34,8 @@ description: "Full publication list from Yoon Lab."
             <div class="publication-entry-number">#{{ paper.number }}</div>
             <div class="publication-entry-body">
               <h4>
-                {% if paper.doi and paper.doi != "" %}
-                <a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener">{{ paper.title }}</a>
-                {% elsif paper.link and paper.link != "" %}
-                <a href="{{ paper.link }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+                {% if paper.link and paper.link != "" %}
+                <a href="{{ paper.link }}">{{ paper.title }}</a>
                 {% else %}
                 {{ paper.title }}
                 {% endif %}

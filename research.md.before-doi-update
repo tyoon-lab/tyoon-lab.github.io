@@ -67,15 +67,7 @@ description: "Research themes of Yoon Lab."
           <article class="research-paper-item">
             <span>{{ paper.year }}</span>
             <div>
-              <h4>
-                {% if paper.doi and paper.doi != "" %}
-                <a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener">{{ paper.title }}</a>
-                {% elsif paper.link and paper.link != "" %}
-                <a href="{{ paper.link }}" target="_blank" rel="noopener">{{ paper.title }}</a>
-                {% else %}
-                {{ paper.title }}
-                {% endif %}
-              </h4>
+              <h4>{{ paper.title }}</h4>
               <p>{{ paper.journal }}</p>
             </div>
           </article>

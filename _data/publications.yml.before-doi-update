@@ -18,7 +18,7 @@
   featured_order: 41
   highlight: Polymer electrolyte transport and oxidative stability
   link: ''
-  doi: '10.1016/j.cej.2026.174986'
+  doi: ''
   journal_if: 13.2
   jcr_ranking: 4.96
 - number: 2
@@ -37,7 +37,7 @@
   featured_order: 42
   highlight: Seawater electrolysis and OER-selective interface mechanisms
   link: ''
-  doi: '10.1016/j.apcatb.2025.125974'
+  doi: ''
   journal_if: 21.1
   jcr_ranking: 1.88
 - number: 3
@@ -56,7 +56,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.poly.2025.117831'
+  doi: ''
   journal_if: 2.6
   jcr_ranking: 34.61
 - number: 4
@@ -75,7 +75,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.surfin.2025.107460'
+  doi: ''
   journal_if: 6.3
   jcr_ranking: 15.0
 - number: 5
@@ -94,7 +94,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.jiec.2025.01.012'
+  doi: ''
   journal_if: 6.0
   jcr_ranking: 19.85
 - number: 6
@@ -113,7 +113,7 @@
   featured_order: 43
   highlight: Aqueous supercapacitor stability window
   link: ''
-  doi: '10.1016/j.cej.2025.164012'
+  doi: ''
   journal_if: 13.2
   jcr_ranking: 4.96
 - number: 7
@@ -132,7 +132,7 @@
   featured_order: 21
   highlight: Copper corrosion in sulfide-based all-solid-state batteries
   link: ''
-  doi: '10.1002/adfm.202420474'
+  doi: ''
   journal_if: 18.5
   jcr_ranking: 4.98
 - number: 8
@@ -151,7 +151,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1039/d4ra09105a'
+  doi: ''
   journal_if: 3.9
   jcr_ranking: 38.85
 - number: 9
@@ -170,7 +170,7 @@
   featured_order: 44
   highlight: MOF/CNT composite electrodes for supercapacitors
   link: ''
-  doi: '10.1039/d4nr03926b'
+  doi: ''
   journal_if: 5.8
   jcr_ranking: 18.98
 - number: 10
@@ -189,7 +189,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.ceramint.2024.08.486'
+  doi: ''
   journal_if: 5.1
   jcr_ranking: 10.34
 - number: 11
@@ -210,7 +210,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1007/s13399-022-03070-3'
+  doi: ''
   journal_if: 3.5
   jcr_ranking: 37.7
 - number: 12
@@ -229,7 +229,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.est.2024.112199'
+  doi: ''
   journal_if: 8.9
   jcr_ranking: 17.79
 - number: 13
@@ -249,7 +249,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.jelechem.2024.118257'
+  doi: ''
   journal_if: 4.5
   jcr_ranking: 20.93
 - number: 14
@@ -269,7 +269,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.3390/molecules29112439'
+  doi: ''
   journal_if: 4.2
   jcr_ranking: 29.6
 - number: 15
@@ -288,7 +288,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1007/s13399-022-02694-9'
+  doi: ''
   journal_if: 3.5
   jcr_ranking: 37.7
 - number: 16
@@ -307,7 +307,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.3390/batteries10040135'
+  doi: ''
   journal_if: 4.6
   jcr_ranking: 41.52
 - number: 17
@@ -326,7 +326,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.3390/mi15040453'
+  doi: ''
   journal_if: 3.0
   jcr_ranking: 34.884
 - number: 18
@@ -345,7 +345,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.est.2023.109646'
+  doi: ''
   journal_if: 9.4
   jcr_ranking: 16.1
 - number: 19
@@ -364,7 +364,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.cis.2023.103048'
+  doi: ''
   journal_if: 15.6
   jcr_ranking: 9.0
 - number: 20
@@ -383,7 +383,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.33961/jecst.2023.00290'
+  doi: ''
   journal_if: 2.2
   jcr_ranking: 85.0
 - number: 21
@@ -402,7 +402,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.apsusc.2023.157553'
+  doi: ''
   journal_if: 6.7
   jcr_ranking: 2.4
 - number: 22
@@ -421,7 +421,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.jece.2023.109604'
+  doi: ''
   journal_if: 7.968
   jcr_ranking: 14.08
 - number: 23
@@ -460,7 +460,7 @@
   featured_order: 32
   highlight: Flexible H2O2 sensing using Fe3O4/graphene/carbon cloth
   link: ''
-  doi: '10.3390/ma16072770'
+  doi: ''
   journal_if: 3.1
   jcr_ranking: 23.4
 - number: 25
@@ -479,7 +479,7 @@
   featured_order: 1
   highlight: Mechanical stabilization of Si anodes by rigid SEI
   link: ''
-  doi: '10.1002/aenm.202202780'
+  doi: ''
   journal_if: 29.698
   jcr_ranking: 2.464
 - number: 26
@@ -498,7 +498,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.mtsust.2022.100182'
+  doi: ''
   journal_if: 7.1
   jcr_ranking: 21.3
 - number: 27
@@ -518,7 +518,7 @@
   featured_order: 33
   highlight: Electrochemical sensing using CuO/N-doped carbon
   link: ''
-  doi: '10.1155/2022/6482133'
+  doi: ''
   journal_if: 4.724
   jcr_ranking: 11.957
 - number: 28
@@ -537,7 +537,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.chemosphere.2022.134815'
+  doi: ''
   journal_if: 8.943
   jcr_ranking: 11.649
 - number: 29
@@ -557,7 +557,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.ijhydene.2021.08.198'
+  doi: ''
   journal_if: 7.139
   jcr_ranking: 25.76
 - number: 30
@@ -577,7 +577,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.biortech.2022.127391'
+  doi: ''
   journal_if: 9.7
   jcr_ranking: 3.3
 - number: 31
@@ -596,7 +596,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.ijhydene.2022.06.118'
+  doi: ''
   journal_if: 7.139
   jcr_ranking: 25.76
 - number: 32
@@ -615,7 +615,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.flatc.2022.100395'
+  doi: ''
   journal_if: 5.9
   jcr_ranking: 26.8
 - number: 33
@@ -634,7 +634,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.jallcom.2022.164487'
+  doi: ''
   journal_if: 5.316
   jcr_ranking: 7.5
 - number: 34
@@ -653,7 +653,7 @@
   featured_order: 22
   highlight: Al current-collector passivation failure in LiPF6 electrolytes
   link: ''
-  doi: '10.1002/adfm.202200026'
+  doi: ''
   journal_if: 18.808
   jcr_ranking: 4.341
 - number: 35
@@ -672,7 +672,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.jclepro.2022.131249'
+  doi: ''
   journal_if: 9.297
   jcr_ranking: 5.682
 - number: 36
@@ -710,7 +710,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.envres.2021.112424'
+  doi: ''
   journal_if: 6.498
   jcr_ranking: 7.635
 - number: 38
@@ -730,7 +730,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.fuel.2021.122807'
+  doi: ''
   journal_if: 6.609
   jcr_ranking: 13.98
 - number: 39
@@ -749,7 +749,7 @@
   featured_order: 2
   highlight: Concentration-gradient-induced delithiation failure
   link: ''
-  doi: '10.1021/acs.nanolett.1c04290'
+  doi: ''
   journal_if: 11.189
   jcr_ranking: 9.062
 - number: 40
@@ -768,7 +768,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.biortech.2021.126154'
+  doi: ''
   journal_if: 9.7
   jcr_ranking: 3.3
 - number: 41
@@ -787,7 +787,7 @@
   featured_order: 34
   highlight: Sensitive electrochemical hydrazine detection
   link: ''
-  doi: '10.1016/j.microc.2021.106784'
+  doi: ''
   journal_if: 4.9
   jcr_ranking: 16.9
 - number: 42
@@ -806,7 +806,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.biortech.2021.126006'
+  doi: ''
   journal_if: 9.7
   jcr_ranking: 3.3
 - number: 43
@@ -825,7 +825,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.apsusc.2021.150281'
+  doi: ''
   journal_if: 6.707
   jcr_ranking: 2.381
 - number: 44
@@ -844,7 +844,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.apsusc.2021.150337'
+  doi: ''
   journal_if: 6.707
   jcr_ranking: 2.381
 - number: 45
@@ -863,7 +863,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.biortech.2021.125511'
+  doi: ''
   journal_if: 9.7
   jcr_ranking: 3.3
 - number: 46
@@ -882,7 +882,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.ceramint.2021.05.076'
+  doi: ''
   journal_if: 4.527
   jcr_ranking: 8.621
 - number: 47
@@ -901,7 +901,7 @@
   featured_order: 3
   highlight: Cathode–electrolyte interphase dissolution
   link: ''
-  doi: '10.1016/j.jpowsour.2021.230051'
+  doi: ''
   journal_if: 9.127
   jcr_ranking: 10.965
 - number: 48
@@ -921,7 +921,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.ceramint.2021.04.040'
+  doi: ''
   journal_if: 4.527
   jcr_ranking: 8.621
 - number: 49
@@ -941,7 +941,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.impact.2021.100345'
+  doi: ''
   journal_if: 4.7
   jcr_ranking: 26.8
 - number: 50
@@ -960,7 +960,7 @@
   featured_order: 35
   highlight: SnO2/TiO2 nanocomposite sensor fabrication
   link: ''
-  doi: '10.1149/1945-7111/ac099b'
+  doi: ''
   journal_if: 3.721
   jcr_ranking: 23.81
 - number: 51
@@ -980,7 +980,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.ceramint.2021.02.065'
+  doi: ''
   journal_if: 3.83
   jcr_ranking: 5.357
 - number: 52
@@ -999,7 +999,7 @@
   featured_order: 45
   highlight: Conversion-reaction anode materials
   link: ''
-  doi: '10.1021/acsami.0c19894'
+  doi: ''
   journal_if: 8.758
   jcr_ranking: 10.35
 - number: 53
@@ -1018,7 +1018,7 @@
   featured_order: 36
   highlight: Nonenzymatic electrochemical sensing
   link: ''
-  doi: '10.1016/j.apsusc.2020.146353'
+  doi: ''
   journal_if: 6.182
   jcr_ranking: 2.381
 - number: 54
@@ -1037,7 +1037,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1002/cssc.202000350'
+  doi: ''
   journal_if: 7.962
   jcr_ranking: 6.098
 - number: 55
@@ -1056,7 +1056,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1039/c9ra05341g'
+  doi: ''
   journal_if: 3.049
   jcr_ranking: 40.12
 - number: 56
@@ -1075,7 +1075,7 @@
   featured_order: 4
   highlight: Electrochemically induced fracture in crystalline Si
   link: ''
-  doi: '10.1016/j.jpowsour.2019.03.105'
+  doi: ''
   journal_if: 6.945
   jcr_ranking: 9.28
 - number: 57
@@ -1094,7 +1094,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1021/acsaem.9b00326'
+  doi: ''
 - number: 58
   year: 2019
   authors: Son, Seoung‐Bum; Cao, Lei; Yoon, Taeho; Cresce, Arthur; Hafner, Simon E; Liu, Jun; Groner, Markus; Xu, Kang; Ban, Chunmei;
@@ -1111,7 +1111,7 @@
   featured_order: 5
   highlight: Cascading failure in graphite–silicon composite anodes
   link: ''
-  doi: '10.1002/advs.201801007'
+  doi: ''
   journal_if: 12.441
   jcr_ranking: 5.96
 - number: 59
@@ -1131,7 +1131,7 @@
   featured_order: 6
   highlight: Spatial mapping of SEI electronic resistivity
   link: ''
-  doi: '10.1016/j.nanoen.2018.11.007'
+  doi: ''
   journal_if: 13.12
   jcr_ranking: 4.79
 - number: 60
@@ -1150,7 +1150,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1149/2.0931805jes'
+  doi: ''
   journal_if: 3.259
   jcr_ranking: 10.53
 - number: 61
@@ -1169,7 +1169,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1149/2.1421709jes'
+  doi: ''
   journal_if: 3.259
   jcr_ranking: 10.53
 - number: 62
@@ -1188,7 +1188,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1149/2.0901709jes'
+  doi: ''
   journal_if: 3.259
   jcr_ranking: 10.53
 - number: 63
@@ -1207,7 +1207,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1166/jnn.2017.13737'
+  doi: ''
   journal_if: 1.483
   jcr_ranking: 57.23
 - number: 64
@@ -1245,7 +1245,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1007/s10853-016-0442-2'
+  doi: ''
   journal_if: 2.302
   jcr_ranking: 30.26
 - number: 66
@@ -1264,7 +1264,7 @@
   featured_order: 7
   highlight: Thermal decomposition of SEI on Si electrodes
   link: ''
-  doi: '10.1021/acs.chemmater.7b00454'
+  doi: ''
   journal_if: 9.407
   jcr_ranking: 5.54
 - number: 67
@@ -1283,7 +1283,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.jallcom.2016.09.073'
+  doi: ''
   journal_if: 3.014
   jcr_ranking: 5.48
 - number: 68
@@ -1302,7 +1302,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1021/acs.jpcc.6b12234'
+  doi: ''
   journal_if: 4.509
   jcr_ranking: 14.39
 - number: 69
@@ -1321,7 +1321,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1021/acs.chemmater.6b02282'
+  doi: ''
   journal_if: 9.407
   jcr_ranking: 5.54
 - number: 70
@@ -1340,7 +1340,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.elecom.2016.06.002'
+  doi: ''
   journal_if: 4.569
   jcr_ranking: 18.52
 - number: 71
@@ -1359,7 +1359,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1149/2.0051609jes'
+  doi: ''
   journal_if: 3.266
   jcr_ranking: 6.25
 - number: 72
@@ -1398,7 +1398,7 @@
   featured_order: 8
   highlight: Binder–Si interactions and electrode integrity
   link: ''
-  doi: '10.1021/acsami.6b03357'
+  doi: ''
   journal_if: 6.723
   jcr_ranking: 8.88
 - number: 74
@@ -1417,7 +1417,7 @@
   featured_order: 9
   highlight: Capacity fading mechanisms of Si nanoparticle electrodes
   link: ''
-  doi: '10.1149/2.0731512jes'
+  doi: ''
   journal_if: 3.266
   jcr_ranking: 6.25
 - number: 75
@@ -1436,7 +1436,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.elecom.2015.05.019'
+  doi: ''
   journal_if: 4.847
   jcr_ranking: 10.71
 - number: 76
@@ -1455,7 +1455,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.jpowsour.2015.04.006'
+  doi: ''
   journal_if: 6.217
   jcr_ranking: 6.82
 - number: 77
@@ -1474,7 +1474,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.jpowsour.2015.02.083'
+  doi: ''
   journal_if: 5.211
   jcr_ranking: 7.41
 - number: 78
@@ -1493,7 +1493,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1149/2.0431506jes'
+  doi: ''
   journal_if: 2.859
   jcr_ranking: 5.56
 - number: 79
@@ -1512,7 +1512,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1002/anie.201404510'
+  doi: ''
   journal_if: 11.336
   jcr_ranking: 7.43
 - number: 80
@@ -1531,7 +1531,7 @@
   featured_order: 23
   highlight: Al species dissolution and re-deposition at high-voltage electrodes
   link: ''
-  doi: '10.1149/2.0231414jes'
+  doi: ''
   journal_if: 2.859
   jcr_ranking: 5.56
 - number: 81
@@ -1550,7 +1550,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1039/c4ta01891e'
+  doi: ''
 - number: 82
   year: 2014
   authors: Yoon, Taeho; Kim, Daesoo; Park, Kern H; Park, Hosang; Jurng, Sunhyung; Jang, Jihyun; Ryu, Ji Heon; Kim, Jae Jeong; Oh, Seung M;
@@ -1605,7 +1605,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.electacta.2013.06.117'
+  doi: ''
   journal_if: 5.8
   jcr_ranking: 26.1
 - number: 85
@@ -1624,7 +1624,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1149/2.095309jes'
+  doi: ''
   journal_if: 2.588
   jcr_ranking: 2.941
 - number: 86
@@ -1643,7 +1643,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1039/c2ta00309k'
+  doi: ''
   journal_if: 6.108
   jcr_ranking: 8.091
 - number: 87
@@ -1662,7 +1662,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.electacta.2012.12.020'
+  doi: ''
   journal_if: 3.777
   jcr_ranking: 21.154
 - number: 88
@@ -1681,7 +1681,7 @@
   featured_order: 999
   highlight: ''
   link: ''
-  doi: '10.1016/j.elecom.2012.10.029'
+  doi: ''
   journal_if: 4.425
   jcr_ranking: 13.462
 - number: 89
@@ -1700,6 +1700,6 @@
   featured_order: 10
   highlight: Failure mechanisms of high-voltage LNMO electrodes
   link: ''
-  doi: '10.1016/j.jpowsour.2012.04.103'
+  doi: ''
   journal_if: 4.675
   jcr_ranking: 9.615
