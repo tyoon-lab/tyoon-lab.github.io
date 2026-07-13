@@ -51,12 +51,13 @@ graduate_students:
   - name: "Yunjeong Kim"
     role: "M.S. Course"
     email: "x2x3x6x@khu.ac.kr"
-    photo: ""
+    photo: "/assets/images/people/yunjeong-kim.jpg"
     topic: "Current-collector corrosion in sulfide-based and aqueous electrolytes"
+
   - name: "Uihyeon Lee"
     role: "Early-start M.S. Course"
     email: "lordsvill@khu.ac.kr"
-    photo: ""
+    photo: "/assets/images/people/uihyeon-lee.jpg"
     topic: "Battery safety, thermal-runaway diagnosis, and QCM-based diagnostics"
 
 undergraduate_students:  
