@@ -12,3 +12,6 @@ gem "csv", ">= 3.3"
 gem "bigdecimal", ">= 3.1"
 gem "logger", ">= 1.6"
 gem "base64", ">= 0.2"
+
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"

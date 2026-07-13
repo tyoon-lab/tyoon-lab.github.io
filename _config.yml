@@ -1,6 +1,6 @@
-title: "Yoon Lab"
-description: "Electrochemical Engineering Lab at Kyung Hee University"
-url: ""
+title: "Yoon Lab | Electrochemical Engineering Lab"
+description: "Yoon Lab at Kyung Hee University develops mechanistic electrochemical diagnostics to understand interfaces, degradation, corrosion, transport limitations, and energy materials."
+url: "https://yoonlab.khu.ac.kr"
 baseurl: ""
 lang: "en"
 timezone: "Asia/Seoul"
@@ -29,3 +29,8 @@ exclude:
   - Gemfile.lock
   - vendor
   - node_modules
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
