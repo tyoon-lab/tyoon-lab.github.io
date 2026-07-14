@@ -61,7 +61,7 @@ description: "Mechanistic electrochemical diagnostics for interfaces, degradatio
   <div class="container">
     <div class="about-panel">
       <span class="section-kicker">From signals to mechanisms</span>
-      <p class="about-lead">Electrochemical signals serve as inverse probes of hidden system states.</p>
+      <p class="about-lead">Our approach treats electrochemical measurements as inverse probes of hidden system states.</p>
       <p class="about-detail">By combining impedance, transient response, mass change, and complementary characterization with physics-based analysis, we quantify reaction kinetics, transport limitations, interfacial degradation, and corrosion.</p>
     </div>
   </div>
