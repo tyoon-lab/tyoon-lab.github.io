@@ -2,14 +2,14 @@
 layout: default
 title: Home
 nav: home
-description: "Mechanistic electrochemical diagnostics for interfaces, degradation, corrosion, and transport."
+description: "Quantitative electrochemical diagnostics for interfaces, degradation, corrosion, and energy materials."
 ---
 <section class="hero">
   <div class="hero-inner">
     <div>
       <span class="section-kicker">Kyung Hee University · Chemical Engineering</span>
-      <h1>Mechanistic Electrochemical Diagnostics</h1>
-      <p>Decoding interfaces, degradation, corrosion, and transport from electrochemical signals.</p>
+      <h1>Decoding Electrochemical Interfaces, Degradation, and Corrosion</h1>
+      <p>Yoon Lab develops quantitative electrochemical diagnostics to reveal how interfacial degradation, transport limitations, side reactions, and corrosion govern the performance and lifetime of energy materials and devices.</p>
       <div class="hero-actions">
         <a class="btn primary" href="{{ '/research/' | relative_url }}">Research →</a>
         <a class="btn secondary" href="{{ '/publications/' | relative_url }}">Publications →</a>
@@ -68,8 +68,8 @@ description: "Mechanistic electrochemical diagnostics for interfaces, degradatio
 <section class="section alt">
   <div class="container">
     <span class="section-kicker">Research Themes</span>
-    <h2 class="section-title">Quantitative Diagnostics for Electrochemical Systems</h2>
-    <p class="section-lead">We use electrochemical signals as quantitative probes of hidden interfacial states, transport processes, side reactions, corrosion, and degradation across energy materials and devices.</p>
+    <h2 class="section-title">Quantitative diagnostics for electrochemical interfaces</h2>
+    <p class="section-lead">We use electrochemical signals as quantitative probes of interfaces, transport, side reactions, corrosion, and degradation in energy materials and devices.</p>
     <div class="grid-2" style="margin-top: 34px;">
       {% for theme in site.data.research %}
       <article class="theme-card">
