@@ -1,6 +1,6 @@
 - title: "Advanced Electrochemical Diagnostics"
   icon: "diagnostics"
-  description: "We develop signal-based diagnostic methods using EIS/DRT, PITT/GITT, QCM, RRDE, transient analysis, and electrochemical modeling to identify and quantify hidden kinetic, transport, interfacial, and degradation phenomena."
+  description: "We develop signal-based diagnostic methods using EIS/DRT, PITT/GITT, QCM, RRDE, transient analysis, and electrochemical modeling to quantify hidden interfacial processes."
 
 - title: "Electrochemical Interfaces and Degradation"
   icon: "interface"
